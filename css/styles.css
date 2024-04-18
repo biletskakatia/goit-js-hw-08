@@ -1,0 +1,26 @@
+ .body{
+    margin: 0;
+ }
+ .container {
+     width: 100%;
+     max-width: 1440px;
+     margin: 0 auto;
+ }
+ .gallery {
+     list-style: none;
+     padding: 0;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 24px;
+    margin: 24px  0;
+ }
+ .gallery-image {
+    width: 360px;
+    height: 200px;
+    transition: transform .5s;
+}
+.gallery-image:hover {
+    transform: scale(1.1);
+    cursor: url('vector.png'), pointer;
+}
